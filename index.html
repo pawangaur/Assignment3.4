@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Head of the Root -->
+<head> <!-- child sub root of the html tag as head tag  -->
+  <title>Student Regestration</title>
+  <meta charset="UTF-8">
+  <style>
+  body {
+    background-image: url("back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+     }
+  #submit{
+    background: transparent;
+    font-size: 20px;
+  }
+
+  </style>
+</head>
+<body>
+
+<form role="form">
+  <center>
+  <div>
+    <label><b>Full Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" maxlength="40" required enabled>
+    <br>
+    <label><b>Nick Name</b></label>
+    <input type="text" name="nname" disabled>
+    <br>
+    <label><b>BirthDate</b></label>
+    <input type="date"  name="dob" required>
+    <br>
+    <label><b>email</b></label>
+    <input type="text" name="emailid" id="emailid" size="30" required>
+    <br>
+    <label><b>CGPA</b></label>
+    <input type="number" name="cgpa" id="cgpa" min="4" max="10" required>
+    <br>
+    <br>
+
+    <p>By registering an account you agree to our Terms & Privacy</a>.</p>
+    <br>
+      <button type="submit" id="submit" class="submitbtn">Submit</button>
+  </div>
+  </center>
+</form>
+
+
+</body>
+</html>
